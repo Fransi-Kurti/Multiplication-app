@@ -33,11 +33,11 @@ body{
     color: lightgrey;
 }
 
-.answer-input::-webkit-outer-spin-button,
+ .answer-input::-webkit-outer-spin-button,
 .answer-input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-}
+} 
 
 .submit-button{
     background: rgba(0,0,0,.8);
