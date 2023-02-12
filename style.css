@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: url("/images/dan-cristian-padure-h3kuhYUCE9A-unsplash.jpg");
+    height: 100vh;
+    align-items: center;
+    color: darkred;
+    
+}
+
+.container{
+    background: rgba(255,255,255,.9);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.6);
+}
+
+.answer-input{
+    padding: 10px;
+    outline: none;
+    border: 1px  solid black;
+    font-size: 2rem;
+
+}
+.answer-input::placeholder{
+    color: lightgrey;
+}
+
+.answer-input::-webkit-outer-spin-button,
+.answer-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.submit-button{
+    background: rgba(0,0,0,.8);
+    color: lightgrey;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-top: none;
+}
+
+.submit-button:hover{
+    background: rgba(0,0,0,.7);
+    color: rgb(243, 243, 243);
+}
